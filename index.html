@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prem Shankar Murti Kala Kendra | Handcrafted Clay Pots, God Idols & Roadside Crafts</title>
+  <meta name="description" content="Prem Shankar Murti Kala Kendra - Artisan studio & roadside shop specializing in terracotta clay pots, surahi, handi, Plaster of Paris (POP) & clay god/devis idols, floral motifs, live plants, small gas stoves, and 5kg cylinders.">
+  <meta name="keywords" content="clay pots, mitti ke bartan, POP idols, plaster of paris murti, Prem Shankar, god motifs, roadside plant display, gas stoves, chota cylinder, kulhad, terracotta decor">
+
+  <!-- Style Sheets -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <div class="announcement-bar">
+    <span>🪔 <strong>Prem Shankar Murti Kala Kendra:</strong> Walk-in Roadside Shop Open Daily!</span>
+    <span class="highlight">✨ Custom POP & Clay God/Devi Idols (₹80 - ₹200)</span>
+    <span>📞 Call / WhatsApp: +91 98765 43210</span>
+  </div>
+
+  <!-- Header Navigation -->
+  <header class="header-main">
+    <div class="container nav-wrapper">
+      <a href="#home" class="logo-container">
+        <div class="pottery-wheel-icon">🏺</div>
+        <div class="brand-text">
+          <h1>प्रेम शंकर मूर्ति कला केंद्र</h1>
+          <p>Prem Shankar Murti Kala Kendra</p>
+        </div>
+      </a>
+
+      <nav>
+        <ul class="nav-menu">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#products" class="nav-link">Craft Catalog</a></li>
+          <li><a href="#roadside" class="nav-link">Roadside Shop</a></li>
+          <li><a href="#custom-order" class="nav-link">Custom Orders</a></li>
+          <li><a href="#about" class="nav-link">Our Story</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="btn-icon" onclick="toggleCartDrawer()" title="View Cart" id="cart-nav-btn">
+          🛒
+          <span class="badge-count">0</span>
+        </button>
+        <a href="#custom-order" class="btn-artisan btn-primary">
+          ✏️ Order Custom Murti
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==================== VIEW 1: HOME PAGE ==================== -->
+  <main id="view-home" class="view-page active-view">
+    
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <span class="badge-tag badge-terracotta" style="margin-bottom: 12px;">Affordable Local Artisan Rates</span>
+          <h2>Handcrafted Clay Utensils, God Motifs & Nursery Plants</h2>
+          <p>
+            Welcome to <strong>Prem Shankar Murti Kala Kendra</strong>! We craft authentic mitti ki handi, kadai, 
+            water bottles, flower pots, and hand-painted Plaster of Paris (POP) & clay Hindu God & Devi idols. 
+            All items are affordably priced for our local community (Pots & Utensils ₹80–₹180, God Motifs ₹80–₹200, Live Plants ₹40–₹150)!
+          </p>
+
+          <div class="hero-features">
+            <div class="feature-pill">🍲 Clay Items (₹80 - ₹180)</div>
+            <div class="feature-pill">🛕 God Motifs (Max ₹200)</div>
+            <div class="feature-pill">🪴 Nursery Plants (₹40 - ₹150)</div>
+            <div class="feature-pill">🔥 Roadside Gas Stoves & Tanks</div>
+          </div>
+
+          <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+            <a href="#products" class="btn-artisan btn-primary">🛍️ Explore All Products</a>
+            <a href="#custom-order" class="btn-artisan btn-gold">📜 Request Custom Idol / Utensils</a>
+          </div>
+        </div>
+
+        <div class="hero-image-card">
+          <img src="assets/images/artisan_hero.png" alt="Prem Shankar Artisan shaping clay on pottery wheel">
+          <div class="hero-stamp">
+            <span class="stamp-icon">🪔</span>
+            <div>
+              <strong style="display: block; font-size: 0.95rem;">Handcrafted With Love</strong>
+              <small style="color: var(--earth-muted);">Traditional Kiln Fired</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Authentic Unique Image Showcase Grid -->
+    <section class="container" style="margin-bottom: 4rem;">
+      <div style="text-align: center; margin-bottom: 2rem;">
+        <span class="handwritten" style="font-size: 1.2rem;">Authentic Workshop Collections</span>
+        <h3 style="font-family: var(--font-serif); font-size: 2rem; color: var(--earth-dark);">Featured Local Creations</h3>
+      </div>
+
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.5rem;">
+        <div class="cat-card" onclick="openProductDetail('god-ram-darbar')" style="padding: 1rem;">
+          <img src="assets/images/god_ram_darbar.jpg" alt="Shri Ram Darbar Divine Murti Set" style="border-radius: var(--radius-sm); height: 200px; width: 100%; object-fit: cover; margin-bottom: 1rem;">
+          <h4 style="font-size: 1.1rem;">Shri Ram Darbar Set</h4>
+          <p style="font-size: 0.85rem; color: var(--earth-muted);">God Motif Statue (₹200)</p>
+        </div>
+
+        <div class="cat-card" onclick="openProductDetail('clay-handi-01')" style="padding: 1rem;">
+          <img src="assets/images/clay_handi_chulha.png" alt="Mitti Ki Handi on Clay Stove" style="border-radius: var(--radius-sm); height: 200px; width: 100%; object-fit: cover; margin-bottom: 1rem;">
+          <h4 style="font-size: 1.1rem;">Desi Mitti Ki Handi</h4>
+          <p style="font-size: 0.85rem; color: var(--earth-muted);">Cookware on Mud Stove (₹150)</p>
+        </div>
+
+        <div class="cat-card" onclick="openProductDetail('vase-lotus-white')" style="padding: 1rem;">
+          <img src="assets/images/vase_lotus_white.png" alt="White Painted Lotus Earthen Pot" style="border-radius: var(--radius-sm); height: 200px; width: 100%; object-fit: cover; margin-bottom: 1rem;">
+          <h4 style="font-size: 1.1rem;">White Lotus Earthen Pot</h4>
+          <p style="font-size: 0.85rem; color: var(--earth-muted);">Flower Vase (₹150)</p>
+        </div>
+
+        <div class="cat-card" onclick="openProductDetail('plant-pink-anthurium')" style="padding: 1rem;">
+          <img src="assets/images/plant_pink_anthurium.png" alt="Pink Anthurium Plant in Clay Pot" style="border-radius: var(--radius-sm); height: 200px; width: 100%; object-fit: cover; margin-bottom: 1rem;">
+          <h4 style="font-size: 1.1rem;">Pink Anthurium Plant</h4>
+          <p style="font-size: 0.85rem; color: var(--earth-muted);">Live Plant in Clay Pot (₹150)</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quick Category Strip -->
+    <section class="container" style="margin-bottom: 4rem;">
+      <div class="category-strip">
+        <div class="cat-card" onclick="filterCategory('utensils')">
+          <div class="cat-icon">🍲</div>
+          <h3>Clay Utensils</h3>
+          <p>Handi, Kadai, Matka, Surahi (₹80 - ₹180)</p>
+        </div>
+
+        <div class="cat-card" onclick="filterCategory('idols')">
+          <div class="cat-icon">🛕</div>
+          <h3>POP & Clay God Idols</h3>
+          <p>Ram Darbar, Durga Mata, Ganesha (₹80 - ₹200)</p>
+        </div>
+
+        <div class="cat-card" onclick="filterCategory('motifs')">
+          <div class="cat-icon">🪷</div>
+          <h3>Flower Pots & Vases</h3>
+          <p>Mandala pots, lotus & peacock vases (₹80 - ₹180)</p>
+        </div>
+
+        <div class="cat-card" onclick="filterCategory('utility')">
+          <div class="cat-icon">🪴</div>
+          <h3>Nursery & Utilities</h3>
+          <p>Live plants (₹40 - ₹150), stoves & cylinders</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Products Spotlight -->
+    <section class="section-padding" style="background: rgba(255, 253, 249, 0.7); border-top: 1px dashed rgba(200, 90, 50, 0.2); border-bottom: 1px dashed rgba(200, 90, 50, 0.2);">
+      <div class="container">
+        <div class="section-header">
+          <span class="subtitle handwritten">Handpicked Creations</span>
+          <h2>Featured Masterpieces & Popular Items</h2>
+          <p>Every single item features a unique photograph with nominal, community-friendly pricing.</p>
+        </div>
+
+        <div class="products-grid" id="featured-products-grid">
+          <!-- Dynamically populated via JS -->
+        </div>
+
+        <div style="text-align: center; margin-top: 3rem;">
+          <a href="#products" class="btn-artisan btn-secondary">View Entire Catalog →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Roadside Shop Highlight -->
+    <section class="container section-padding">
+      <div class="roadside-banner">
+        <div class="roadside-grid">
+          <div>
+            <span class="roadside-badge">Convenient Roadside Counter</span>
+            <h2>Prem Shankar Roadside Display & Utility Shop</h2>
+            <p style="font-size: 1.1rem; opacity: 0.95; line-height: 1.7;">
+              In addition to our clay & POP artisan workshop, our roadside display shop offers immediate walk-in 
+              utilities for local households, tea stalls, and plant lovers! Stop by to pick up fresh green plants in clay pots, 
+              portable single/double burner gas stoves, 5kg mini gas cylinders, and hose accessories.
+            </p>
+
+            <div class="utility-tags-list">
+              <div class="utility-tag">🪴 Fresh Nursery Plants (₹40 - ₹150)</div>
+              <div class="utility-tag">🔥 Portable Single & Double Burner Stoves</div>
+              <div class="utility-tag">⛽ 5kg Mini Cylinder Refills & Tanks</div>
+              <div class="utility-tag">🍲 Clay Cookware (₹80 - ₹180)</div>
+            </div>
+
+            <a href="#roadside" class="btn-artisan btn-gold">📍 Visit Roadside Display Details</a>
+          </div>
+
+          <div style="border-radius: var(--radius-md); overflow: hidden; border: 4px solid var(--gold-glow); box-shadow: var(--shadow-md);">
+            <img src="assets/images/pot_mandala_stand.jpg" alt="Prem Shankar Roadside Gamla & Mandala Pot Display">
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==================== VIEW 2: PRODUCTS CATALOG ==================== -->
+  <main id="view-products" class="view-page section-padding">
+    <div class="container">
+      <div class="section-header">
+        <span class="subtitle handwritten">Craft Collection</span>
+        <h2>Explore Handmade Utensils & Art</h2>
+        <p>Browse through our mitti ke bartan, Plaster of Paris (POP) idols, floral motifs, live plants, and roadside shop utility items.</p>
+      </div>
+
+      <!-- Toolbar -->
+      <div class="catalog-toolbar">
+        <div class="filter-group">
+          <button class="filter-btn active" data-filter="all">All Items</button>
+          <button class="filter-btn" data-filter="utensils">🍲 Clay Utensils (₹80-₹180)</button>
+          <button class="filter-btn" data-filter="idols">🛕 God Motifs (Max ₹200)</button>
+          <button class="filter-btn" data-filter="motifs">🪷 Flower Pots (₹80-₹180)</button>
+          <button class="filter-btn" data-filter="utility">🪴 Plants & Utilities</button>
+        </div>
+
+        <div class="search-box">
+          <span class="search-icon">🔍</span>
+          <input type="text" id="catalog-search-input" placeholder="Search handi, kadai, Ram Darbar, anthurium...">
+        </div>
+      </div>
+
+      <!-- Grid -->
+      <div class="products-grid" id="catalog-products-grid">
+        <!-- JS Rendered -->
+      </div>
+    </div>
+  </main>
+
+  <!-- ==================== VIEW 3: DEDICATED PRODUCT DETAIL PAGE ==================== -->
+  <main id="view-product-detail" class="view-page section-padding">
+    <div class="container">
+      <div style="margin-bottom: 2rem;">
+        <a href="#products" class="btn-artisan btn-secondary" style="padding: 8px 18px; font-size: 0.9rem;">
+          ← Back to Catalog
+        </a>
+      </div>
+
+      <div id="product-detail-content" class="product-detail-container">
+        <!-- Rendered dynamically by app.js -->
+      </div>
+    </div>
+  </main>
+
+  <!-- ==================== VIEW 4: ROADSIDE SHOP ==================== -->
+  <main id="view-roadside" class="view-page section-padding">
+    <div class="container">
+      <div class="section-header">
+        <span class="subtitle handwritten">Direct Walk-In Counter</span>
+        <h2>Roadside Display & Utility Center</h2>
+        <p>Located conveniently on the main road for quick drive-by pickups of essential kitchen utilities, plants, and traditional earthenware.</p>
+      </div>
+
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: center; margin-bottom: 4rem;">
+        <div>
+          <img src="assets/images/pot_mandala_stand.jpg" alt="Roadside Craft Display" style="border-radius: var(--radius-lg); border: 6px solid var(--plaster-white); box-shadow: var(--shadow-md);">
+        </div>
+
+        <div>
+          <h3 style="font-size: 2rem; margin-bottom: 1rem;">What You Can Buy Directly at Our Roadside Counter:</h3>
+          <ul style="list-style: none; display: flex; flex-direction: column; gap: 1.2rem;">
+            <li style="display: flex; gap: 14px; align-items: flex-start;">
+              <span style="font-size: 1.6rem; background: var(--primary-light); padding: 8px; border-radius: 50%;">🔥</span>
+              <div>
+                <strong style="font-size: 1.1rem; color: var(--earth-dark);">Portable Small Gas Stoves & Burners</strong>
+                <p style="color: var(--earth-medium); font-size: 0.95rem;">Single burner & double burner compact LPG stoves with heavy brass caps for home kitchens and street stalls.</p>
+              </div>
+            </li>
+
+            <li style="display: flex; gap: 14px; align-items: flex-start;">
+              <span style="font-size: 1.6rem; background: var(--leaf-light); padding: 8px; border-radius: 50%;">⛽</span>
+              <div>
+                <strong style="font-size: 1.1rem; color: var(--earth-dark);">Small Gas Cylinders (5kg Chota Cylinder)</strong>
+                <p style="color: var(--earth-medium); font-size: 0.95rem;">Standard 5kg portable cylinders, regulator keys, brass nozzles, and flexible safety hose pipes.</p>
+              </div>
+            </li>
+
+            <li style="display: flex; gap: 14px; align-items: flex-start;">
+              <span style="font-size: 1.6rem; background: #FFF3E0; padding: 8px; border-radius: 50%;">🪴</span>
+              <div>
+                <strong style="font-size: 1.1rem; color: var(--earth-dark);">Live Nursery Plants & Clay Gamlas (₹40 - ₹150)</strong>
+                <p style="color: var(--earth-medium); font-size: 0.95rem;">Pink Anthurium, Dieffenbachia, Snake Plant, Tulsi (Holy Basil), Money plant, and stacked terracotta flower pots.</p>
+              </div>
+            </li>
+
+            <li style="display: flex; gap: 14px; align-items: flex-start;">
+              <span style="font-size: 1.6rem; background: var(--primary-light); padding: 8px; border-radius: 50%;">🍲</span>
+              <div>
+                <strong style="font-size: 1.1rem; color: var(--earth-dark);">Cookware & Earthen Utensils (₹80 - ₹180)</strong>
+                <p style="color: var(--earth-medium); font-size: 0.95rem;">Mitti ki handi on stove, clay kadai woks, water bottles, mugs, surahi, and bulk kulhads.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- ==================== VIEW 5: CUSTOM ORDER STUDIO ==================== -->
+  <main id="view-custom-order" class="view-page section-padding">
+    <div class="container">
+      <div class="section-header">
+        <span class="subtitle handwritten">Tailor-Made Sculpting</span>
+        <h2>On-Order Custom POP & Clay Studio</h2>
+        <p>Need a custom Plaster of Paris (POP) God idol (max ₹200), personalized Devi murti, custom terracotta kitchen utensils (₹80-₹180), or flower pots? We build to your exact specifications!</p>
+      </div>
+
+      <div class="custom-order-box">
+        <form onsubmit="submitCustomOrderRequest(event)">
+          <div class="form-grid">
+            <div class="form-group">
+              <label for="cust-name">Your Full Name *</label>
+              <input type="text" id="cust-name" class="form-control" required placeholder="e.g. Rajesh Sharma">
+            </div>
+
+            <div class="form-group">
+              <label for="cust-phone">WhatsApp / Phone Number *</label>
+              <input type="tel" id="cust-phone" class="form-control" required placeholder="e.g. 98765 43210">
+            </div>
+
+            <div class="form-group">
+              <label for="cust-item-type">Item Required *</label>
+              <select id="cust-item-type" class="form-control">
+                <option value="Shri Ram Darbar POP Statue">Shri Ram Darbar POP / Clay Statue (₹200)</option>
+                <option value="Mata Durga / Devi Murti">Mata Durga / Devi Murti (₹180)</option>
+                <option value="Shri Ram Lakshman Sita Trio">Shri Ram, Lakshman & Sita Trio (₹150)</option>
+                <option value="Custom Mitti Ki Handi / Kadai">Custom Mitti Ki Handi / Kadai / Cookware (₹120-₹150)</option>
+                <option value="Flower Pot & Decorative Vase">Flower Pot & Decorative Vase (₹80-₹180)</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="cust-material">Preferred Material *</label>
+              <select id="cust-material" class="form-control">
+                <option value="pop">Plaster of Paris (POP) - Sharp Finish & Lightweight</option>
+                <option value="clay">100% Pure Organic River Clay (Mitti)</option>
+                <option value="pop-clay">POP & Clay Hybrid (Strong Structure + Organic Surface)</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="cust-size">Size Dimension *</label>
+              <select id="cust-size" class="form-control">
+                <option value="small">Small (6 Inches - 12 Inches)</option>
+                <option value="med" selected>Medium (1.5 Feet - 3 Feet)</option>
+                <option value="large">Large (4 Feet - 6 Feet Festival Size)</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="cust-finish">Paint & Decorative Finish</label>
+              <select id="cust-finish" class="form-control">
+                <option value="natural">Natural Terracotta / POP Unpainted</option>
+                <option value="painted" selected>Hand Painted Traditional Colors</option>
+                <option value="gold-leaf">Premium Hand Painted + Gold Details</option>
+              </select>
+            </div>
+
+            <div class="form-group full-width">
+              <label for="cust-notes">Custom Instructions / Requirements</label>
+              <textarea id="cust-notes" class="form-control" rows="4" placeholder="Describe weapon details, crown style, pose, date needed, or special utensil dimensions..."></textarea>
+            </div>
+          </div>
+
+          <!-- Dynamic Quote Estimator -->
+          <div class="custom-estimate-card">
+            <div>
+              <strong style="display: block; color: var(--earth-dark);">Estimated Base Craft Price:</strong>
+              <small style="color: var(--earth-muted);">Calculates dynamically based on material, size & finishing selected above (Max ₹200)</small>
+            </div>
+            <div class="estimate-price" id="custom-estimate-price">₹150</div>
+          </div>
+
+          <div style="text-align: center; margin-top: 2rem;">
+            <button type="submit" class="btn-artisan btn-primary" style="padding: 16px 36px; font-size: 1.1rem;">
+              📩 Send Custom Order Request
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <!-- ==================== VIEW 6: ABOUT US & HERITAGE ==================== -->
+  <main id="view-about" class="view-page section-padding">
+    <div class="container">
+      <div class="section-header">
+        <span class="subtitle handwritten">Our Heritage</span>
+        <h2>About Prem Shankar Murti Kala Kendra</h2>
+        <p>Preserving generations of Indian pottery craftsmanship, devotional sculpturing, and local community service.</p>
+      </div>
+
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 3.5rem; align-items: center; margin-bottom: 4rem;">
+        <div>
+          <h3 style="font-size: 2rem; margin-bottom: 1rem;">Crafting Devotion & Utility Since 1994</h3>
+          <p style="color: var(--earth-medium); margin-bottom: 1.2rem; line-height: 1.8;">
+            Founded by <strong>Prem Shankar Prajapati</strong>, our studio was established with a mission to preserve 
+            the sacred art of traditional clay sculpting and Plaster of Paris (POP) idol crafting. Over the decades, 
+            our workshop has sculpted thousands of idols of Lord Ganesha, Goddess Durga, Goddess Lakshmi, and Shri Ram Darbar sets.
+          </p>
+          <p style="color: var(--earth-medium); margin-bottom: 1.5rem; line-height: 1.8;">
+            Understanding local community needs, we provide healthy mitti cookware (₹80-₹180), God motifs (at most ₹200), 
+            flower vases, live nursery plants (₹40-₹150), and everyday cooking utilities like portable gas stoves and 5kg cylinders.
+          </p>
+
+          <div style="background: var(--primary-light); padding: 1.2rem; border-radius: var(--radius-md); border-left: 4px solid var(--primary-terracotta);">
+            <strong style="color: var(--primary-dark); font-size: 1.05rem;">Our Guarantee:</strong>
+            <p style="font-size: 0.92rem; color: var(--earth-dark); margin-top: 4px;">
+              Every clay item is kiln-fired for durability, every POP idol is hand-finished with meticulous devotion, and every gas stove/cylinder is pressure-checked for safety.
+            </p>
+          </div>
+        </div>
+
+        <div style="border-radius: var(--radius-lg); overflow: hidden; border: 8px solid var(--plaster-white); box-shadow: var(--shadow-lg);">
+          <img src="assets/images/god_ram_darbar.jpg" alt="Prem Shankar Ram Darbar Workshop Masterpiece">
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- ==================== CART DRAWER ==================== -->
+  <div class="drawer-backdrop" id="drawer-backdrop" onclick="toggleCartDrawer()"></div>
+  <div class="cart-drawer" id="cart-drawer">
+    <div class="cart-header">
+      <h3 style="font-family: var(--font-serif);">Your Artisan Basket 🧺</h3>
+      <button class="btn-icon" onclick="toggleCartDrawer()">✕</button>
+    </div>
+
+    <div class="cart-body" id="cart-drawer-body">
+      <!-- JS Rendered Items -->
+    </div>
+
+    <div class="cart-footer">
+      <div class="cart-total-row">
+        <span>Subtotal:</span>
+        <span id="cart-total-price">₹0</span>
+      </div>
+      <button class="btn-artisan btn-primary" style="width: 100%; text-align: center; justify-content: center; padding: 14px;" onclick="checkoutCart()">
+        🛍️ Proceed to Order & Pickup
+      </button>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-grid">
+      <div class="footer-col">
+        <h4 style="font-size: 1.4rem;">प्रेम शंकर मूर्ति कला केंद्र</h4>
+        <p style="color: #D4C5BC; font-size: 0.95rem; margin-top: 8px; line-height: 1.7;">
+          Artisan studio and roadside shop for handmade terracotta clay pots, handi, kadai, water bottles, custom POP & clay God/Devi idols (max ₹200), flowerpots, live plants (₹40-₹150), gas stoves, and 5kg cylinders.
+        </p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#home">Home Page</a></li>
+          <li><a href="#products">Craft Catalog</a></li>
+          <li><a href="#roadside">Roadside Shop</a></li>
+          <li><a href="#custom-order">Custom Orders</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Craft Categories</h4>
+        <ul>
+          <li><a href="#products" onclick="filterCategory('utensils')">Clay Utensils</a></li>
+          <li><a href="#products" onclick="filterCategory('idols')">POP God Idols</a></li>
+          <li><a href="#products" onclick="filterCategory('motifs')">Flowerpots & Vases</a></li>
+          <li><a href="#products" onclick="filterCategory('utility')">Plants & Utilities</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Visit & Contact</h4>
+        <p style="color: #D4C5BC; font-size: 0.92rem; margin-bottom: 8px;">
+          📍 Main Roadside Crafts Counter, Near City Garden Circle
+        </p>
+        <p style="color: #D4C5BC; font-size: 0.92rem; margin-bottom: 8px;">
+          📞 Phone: +91 98765 43210
+        </p>
+        <p style="color: #D4C5BC; font-size: 0.92rem;">
+          💬 WhatsApp Orders: +91 98765 43210
+        </p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        © 2026 Prem Shankar Murti Kala Kendra. All Rights Reserved. Crafted with traditional clay & Plaster of Paris (POP) devotion.
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>

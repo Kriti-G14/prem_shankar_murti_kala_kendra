@@ -1,0 +1,96 @@
+[
+  {
+    "id": "ORD-MRW0NZFI",
+    "timestamp": "2026-07-22T11:46:09.822Z",
+    "items": [
+      {
+        "id": "god-ram-darbar",
+        "name": "Shri Ram Darbar Divine Murti Set",
+        "category": "idols",
+        "material": "Painted POP & Clay",
+        "price": 200,
+        "rating": 5,
+        "reviewsCount": 112,
+        "badge": "Masterpiece",
+        "badgeType": "pop",
+        "image": "assets/images/god_ram_darbar.jpg",
+        "images": [
+          "assets/images/god_ram_darbar.jpg"
+        ],
+        "shortDesc": "Vibrantly hand-painted Shri Ram Darbar set featuring Ram, Sita, Lakshman, Hanuman & Bharat with gold crowns.",
+        "description": "Sculpted with immense devotion at Prem Shankar Murti Kala Kendra. Features Bhagwan Ram and Sita Mata seated on a gold throne, flanked by Lakshman, Bharat, and Hanuman ji offering prayers.",
+        "specs": {
+          "Dimensions": "14 Inches Width x 12 Inches Height",
+          "Material": "High-Density Plaster of Paris (POP) & Clay",
+          "Finish": "Hand-painted enamel with gold accents",
+          "Crafted In": "Prem Shankar Murti Workshop"
+        },
+        "quantity": 1
+      }
+    ],
+    "totalPrice": "₹200",
+    "status": "Order Received - Walk-in Pickup Ready"
+  },
+  {
+    "id": "ORD-MRW0OV8Z",
+    "timestamp": "2026-07-22T11:46:51.059Z",
+    "items": [
+      {
+        "id": "god-durga-mata",
+        "name": "Goddess Sherawali Durga Mata Murti",
+        "category": "idols",
+        "material": "POP & Fine Clay",
+        "price": 180,
+        "rating": 5,
+        "reviewsCount": 89,
+        "badge": "Devotional Art",
+        "badgeType": "pop",
+        "image": "assets/images/god_durga_mata.jpg",
+        "images": [
+          "assets/images/god_durga_mata.jpg"
+        ],
+        "shortDesc": "Hand-sculpted 8-armed Goddess Durga riding her majestic lion with intricate gold crown and weapons.",
+        "description": "Breathtaking murti of Mata Rani riding her lion. Features fine jewel work, 8-arm weapons, red saree detailing, and a golden Mukut halo.",
+        "specs": {
+          "Height": "14 Inches",
+          "Arms": "8 Arms with Sacred Weapons",
+          "Base": "Carved Marble-look POP Pedestal"
+        },
+        "quantity": 1
+      }
+    ],
+    "totalPrice": "₹180",
+    "status": "Order Received - Walk-in Pickup Ready"
+  },
+  {
+    "id": "ORD-MRW0RDE8",
+    "timestamp": "2026-07-22T11:48:47.888Z",
+    "items": [
+      {
+        "id": "god-durga-mata",
+        "name": "Goddess Sherawali Durga Mata Murti",
+        "category": "idols",
+        "material": "POP & Fine Clay",
+        "price": 180,
+        "rating": 5,
+        "reviewsCount": 89,
+        "badge": "Devotional Art",
+        "badgeType": "pop",
+        "image": "assets/images/god_durga_mata.jpg",
+        "images": [
+          "assets/images/god_durga_mata.jpg"
+        ],
+        "shortDesc": "Hand-sculpted 8-armed Goddess Durga riding her majestic lion with intricate gold crown and weapons.",
+        "description": "Breathtaking murti of Mata Rani riding her lion. Features fine jewel work, 8-arm weapons, red saree detailing, and a golden Mukut halo.",
+        "specs": {
+          "Height": "14 Inches",
+          "Arms": "8 Arms with Sacred Weapons",
+          "Base": "Carved Marble-look POP Pedestal"
+        },
+        "quantity": 1
+      }
+    ],
+    "totalPrice": "₹180",
+    "status": "Order Received - Walk-in Pickup Ready"
+  }
+]

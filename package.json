@@ -1,0 +1,8 @@
+{
+  "name": "prem-shankar-murti-kala-kendra",
+  "version": "1.0.0",
+  "description": "Prem Shankar Murti Kala Kendra Artisan Shop",
+  "scripts": {
+    "build": "echo Static build complete"
+  }
+}

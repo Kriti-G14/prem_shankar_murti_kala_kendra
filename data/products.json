@@ -1,0 +1,371 @@
+[
+  {
+    "id": "god-ram-darbar",
+    "name": "Shri Ram Darbar Divine Murti Set",
+    "category": "idols",
+    "material": "Painted POP & Clay",
+    "price": 200,
+    "rating": 5.0,
+    "reviewsCount": 112,
+    "badge": "Masterpiece",
+    "badgeType": "pop",
+    "image": "assets/images/god_ram_darbar.jpg",
+    "images": ["assets/images/god_ram_darbar.jpg"],
+    "shortDesc": "Vibrantly hand-painted Shri Ram Darbar set featuring Ram, Sita, Lakshman, Hanuman & Bharat with gold crowns.",
+    "description": "Sculpted with immense devotion at Prem Shankar Murti Kala Kendra. Features Bhagwan Ram and Sita Mata seated on a gold throne, flanked by Lakshman, Bharat, and Hanuman ji offering prayers.",
+    "specs": {
+      "Dimensions": "14 Inches Width x 12 Inches Height",
+      "Material": "High-Density Plaster of Paris (POP) & Clay",
+      "Finish": "Hand-painted enamel with gold accents",
+      "Crafted In": "Prem Shankar Murti Workshop"
+    }
+  },
+  {
+    "id": "god-durga-mata",
+    "name": "Goddess Sherawali Durga Mata Murti",
+    "category": "idols",
+    "material": "POP & Fine Clay",
+    "price": 180,
+    "rating": 5.0,
+    "reviewsCount": 89,
+    "badge": "Devotional Art",
+    "badgeType": "pop",
+    "image": "assets/images/god_durga_mata.jpg",
+    "images": ["assets/images/god_durga_mata.jpg"],
+    "shortDesc": "Hand-sculpted 8-armed Goddess Durga riding her majestic lion with intricate gold crown and weapons.",
+    "description": "Breathtaking murti of Mata Rani riding her lion. Features fine jewel work, 8-arm weapons, red saree detailing, and a golden Mukut halo.",
+    "specs": {
+      "Height": "14 Inches",
+      "Arms": "8 Arms with Sacred Weapons",
+      "Base": "Carved Marble-look POP Pedestal"
+    }
+  },
+  {
+    "id": "god-ram-sita",
+    "name": "Shri Ram, Sita Mata & Lakshman Standing Trio",
+    "category": "idols",
+    "material": "POP & River Clay",
+    "price": 150,
+    "rating": 4.9,
+    "reviewsCount": 76,
+    "badge": "Temple Idol",
+    "badgeType": "pop",
+    "image": "assets/images/god_ram_lakshman_sita.png",
+    "images": ["assets/images/god_ram_lakshman_sita.png"],
+    "shortDesc": "Standing statue trio of Lord Ram, Sita Mata, and Lakshman with golden bows and lotus bases.",
+    "description": "Elegant standing idols sculpted for home mandirs and temple altars. Hand-painted with delicate pastel tones and gold ornaments.",
+    "specs": {
+      "Height": "15 Inches",
+      "Pedestal": "Lotus Flower Base",
+      "Accessories": "Golden Bows & Arrow Quivers Included"
+    }
+  },
+  {
+    "id": "pop-ganesha-01",
+    "name": "Painted Lord Ganesha Statue",
+    "category": "idols",
+    "material": "POP & Clay",
+    "price": 100,
+    "rating": 4.9,
+    "reviewsCount": 64,
+    "badge": "Popular",
+    "badgeType": "pop",
+    "image": "assets/images/pop_god_idols.png",
+    "images": ["assets/images/pop_god_idols.png"],
+    "shortDesc": "Vibrantly hand-painted Lord Ganesha idol with gold leaf highlights and detailed ornaments.",
+    "description": "Masterfully crafted by Prem Shankar. Combines Plaster of Paris (POP) for sharp detail with organic mitti coating.",
+    "specs": {
+      "Height": "10 Inches",
+      "Weight": "1.2 kg",
+      "Paint": "Water-resistant eco enamel & gold paint"
+    }
+  },
+  {
+    "id": "clay-shiva-03",
+    "name": "Hand-Molded Shivlinga & Mahadev Relief",
+    "category": "idols",
+    "material": "Natural River Clay & POP",
+    "price": 80,
+    "rating": 4.8,
+    "reviewsCount": 19,
+    "badge": "Handmade",
+    "badgeType": "terracotta",
+    "image": "assets/images/artisan_hero.png",
+    "images": ["assets/images/artisan_hero.png"],
+    "shortDesc": "Sacred Mahadev Shivlinga surrounded by carved Nandi and Trishul motifs.",
+    "description": "Sculpted with devotion using pure mitti and POP foundation for long-lasting structural strength.",
+    "specs": {
+      "Height": "8 Inches",
+      "Finish": "Antique Stone Finish / Black Ochre"
+    }
+  },
+  {
+    "id": "clay-handi-01",
+    "name": "Desi Mitti Ki Handi with Lid (Cookware on Clay Chulha)",
+    "category": "utensils",
+    "material": "Natural Terracotta Clay",
+    "price": 150,
+    "rating": 5.0,
+    "reviewsCount": 68,
+    "badge": "Artisan Special",
+    "badgeType": "terracotta",
+    "image": "assets/images/clay_handi_chulha.png",
+    "images": ["assets/images/clay_handi_chulha.png"],
+    "shortDesc": "Traditional earthenware cooking pot with fitted clay lid, designed for slow cooking on gas stove or mud chulha.",
+    "description": "Baked in firewood kilns by Prem Shankar artisans. This classic mitti handi retains essential nutrients and imparts an unmatchable traditional earthen aroma.",
+    "specs": {
+      "Capacity": "2.5 Liters",
+      "Lid": "Fitted Terracotta Knob Lid Included",
+      "Stove Compatibility": "Gas Stove & Wood Chulha Friendly"
+    }
+  },
+  {
+    "id": "clay-kadai-02",
+    "name": "Mitti Ki Heavy Kadai with Handles (Clay Wok)",
+    "category": "utensils",
+    "material": "Heavy Terracotta Clay",
+    "price": 120,
+    "rating": 4.9,
+    "reviewsCount": 51,
+    "badge": "Healthy Cooking",
+    "badgeType": "terracotta",
+    "image": "assets/images/clay_kadai.png",
+    "images": ["assets/images/clay_kadai.png"],
+    "shortDesc": "Deep earthen cooking wok with built-in clay handles, pre-conditioned for frying and sautéing.",
+    "description": "Thick-walled clay kadai crafted with dual side handles for safe handling. Distributes heat evenly without burning.",
+    "specs": {
+      "Diameter": "10 Inches",
+      "Capacity": "2 Liters",
+      "Handles": "Reinforced Dual Clay Handles"
+    }
+  },
+  {
+    "id": "earthenware-set-03",
+    "name": "Clay Water Bottle, Mug & Utensil Collection",
+    "category": "utensils",
+    "material": "Organic Baked River Clay",
+    "price": 180,
+    "rating": 5.0,
+    "reviewsCount": 94,
+    "badge": "Workshop Display",
+    "badgeType": "terracotta",
+    "image": "assets/images/earthenware_collection.jpg",
+    "images": ["assets/images/earthenware_collection.jpg"],
+    "shortDesc": "Complete collection of natural earthen utensils: eco-friendly clay water bottles, mugs, tea pots & bowls.",
+    "description": "Straight from our Prem Shankar workshop! Replace plastic with 100% natural clay water bottles, drinking mugs, tea pots, and soup bowls.",
+    "specs": {
+      "Items Included": "Clay Bottle, Mug, Teapot & Cooking Bowls",
+      "Material": "100% Chemical Free Natural Clay"
+    }
+  },
+  {
+    "id": "clay-matka-04",
+    "name": "Desi Mitti Ka Matka (Earthen Water Pot)",
+    "category": "utensils",
+    "material": "Natural Terracotta Clay",
+    "price": 120,
+    "rating": 4.9,
+    "reviewsCount": 42,
+    "badge": "Best Seller",
+    "badgeType": "terracotta",
+    "image": "assets/images/clay_pots_utensils.png",
+    "images": ["assets/images/clay_pots_utensils.png"],
+    "shortDesc": "Traditional handcrafted unglazed terracotta clay matka for naturally chilled drinking water.",
+    "description": "Provides micro-porous natural cooling that keeps drinking water chilled and alkaline without electricity.",
+    "specs": {
+      "Capacity": "8 Liters",
+      "Material": "100% Organic Terracotta Clay"
+    }
+  },
+  {
+    "id": "kulhad-set-05",
+    "name": "Handcrafted Clay Kulhad Set (Pack of 6)",
+    "category": "utensils",
+    "material": "Baked Clay",
+    "price": 80,
+    "rating": 5.0,
+    "reviewsCount": 88,
+    "badge": "Popular",
+    "badgeType": "terracotta",
+    "image": "assets/images/decorative_motifs.png",
+    "images": ["assets/images/decorative_motifs.png"],
+    "shortDesc": "Authentic earthenware cups for serving special chai, lassi, and sweet milk with earthen fragrance.",
+    "description": "Biodegradable, eco-friendly cups handcrafted individually on the pottery wheel.",
+    "specs": {
+      "Capacity": "150 ml per kulhad",
+      "Pack Size": "6 Pieces"
+    }
+  },
+  {
+    "id": "pot-mandala-stand",
+    "name": "Garden Earthen Pot with White Rangoli Mandala & Iron Stand",
+    "category": "motifs",
+    "material": "Textured Clay & Iron Stand",
+    "price": 180,
+    "rating": 5.0,
+    "reviewsCount": 82,
+    "badge": "Garden Special",
+    "badgeType": "terracotta",
+    "image": "assets/images/pot_mandala_stand.jpg",
+    "images": ["assets/images/pot_mandala_stand.jpg"],
+    "shortDesc": "Large textured earthen planter painted with traditional white mandala floral motifs, complete with 3-leg iron stand.",
+    "description": "Heavy textured clay pot decorated with traditional white folk rangoli patterns, resting on a tripod metal stand.",
+    "specs": {
+      "Height with Stand": "18 Inches",
+      "Pot Diameter": "12 Inches",
+      "Stand Included": "Wrought Iron Tripod Stand"
+    }
+  },
+  {
+    "id": "vase-lotus-white",
+    "name": "Hand-Painted White Earthen Pot (Red Lotus Vine Artwork)",
+    "category": "motifs",
+    "material": "Smooth Clay",
+    "price": 150,
+    "rating": 4.9,
+    "reviewsCount": 45,
+    "badge": "New Arrival",
+    "badgeType": "terracotta",
+    "image": "assets/images/vase_lotus_white.png",
+    "images": ["assets/images/vase_lotus_white.png"],
+    "shortDesc": "Elegant white painted earthen pot with hand-drawn red lotus flowers and green vine branch artwork.",
+    "description": "Contemporary white earthenware pot adorned with traditional red lotus vines.",
+    "specs": {
+      "Height": "9 Inches",
+      "Base Color": "Matte Ivory White"
+    }
+  },
+  {
+    "id": "vase-peacock-terracotta",
+    "name": "Hand-Painted Peacock & Lotus Terracotta Vase",
+    "category": "motifs",
+    "material": "Terracotta Clay & Enamel",
+    "price": 120,
+    "rating": 5.0,
+    "reviewsCount": 64,
+    "badge": "Artisan Floral",
+    "badgeType": "terracotta",
+    "image": "assets/images/vase_peacock_terracotta.jpg",
+    "images": ["assets/images/vase_peacock_terracotta.jpg"],
+    "shortDesc": "Traditional earthen vase featuring hand-painted blue peacock (mor) figures and central lotus mandala.",
+    "description": "Handcrafted pot painted with traditional peacock motifs, lotus blooms, and gold dot borders.",
+    "specs": {
+      "Height": "8 Inches",
+      "Motif Work": "Hand-painted Peacock & Lotus"
+    }
+  },
+  {
+    "id": "terracotta-planters-01",
+    "name": "Roadside Stacked Terracotta Gamla Rims",
+    "category": "motifs",
+    "material": "Baked Red Terracotta",
+    "price": 80,
+    "rating": 4.9,
+    "reviewsCount": 73,
+    "badge": "Roadside Display",
+    "badgeType": "terracotta",
+    "image": "assets/images/terracotta_planters_stack.jpg",
+    "images": ["assets/images/terracotta_planters_stack.jpg"],
+    "shortDesc": "Heavy-duty stacked clay flowerpots and wide plant bowls available directly at our roadside counter.",
+    "description": "Crafted with thick clay rims for maximum outdoor durability. Porous terracotta walls allow plant roots to breathe.",
+    "specs": {
+      "Available Sizes": "8 Inch & 10 Inch Rims",
+      "Features": "Bottom Drainage Hole & Aeration"
+    }
+  },
+  {
+    "id": "plant-pink-anthurium",
+    "name": "Pink Anthurium Flowering Plant in Pink Clay Pot",
+    "category": "utility",
+    "material": "Live Plant & Clay Pot",
+    "price": 150,
+    "rating": 5.0,
+    "reviewsCount": 38,
+    "badge": "Premium Nursery",
+    "badgeType": "utility",
+    "image": "assets/images/plant_pink_anthurium.png",
+    "images": ["assets/images/plant_pink_anthurium.png"],
+    "shortDesc": "Exotic pink anthurium indoor flowering plant potted in a smooth terracotta saucer clay pot.",
+    "description": "Gorgeous heart-shaped pink flowers and glossy green leaves. Potted in organic soil with matching terracotta tray.",
+    "specs": {
+      "Plant Height": "12 Inches",
+      "Pot Material": "Terracotta Clay with Saucer Tray"
+    }
+  },
+  {
+    "id": "plant-dieffenbachia",
+    "name": "Lush Dieffenbachia Foliage Plant in White Pot",
+    "category": "utility",
+    "material": "Live Plant & Ceramic Pot",
+    "price": 120,
+    "rating": 4.8,
+    "reviewsCount": 52,
+    "badge": "Indoor Decor",
+    "badgeType": "utility",
+    "image": "assets/images/plant_dieffenbachia.png",
+    "images": ["assets/images/plant_dieffenbachia.png"],
+    "shortDesc": "Vibrant green and cream variegated leaf foliage plant in a sleek white planter pot.",
+    "description": "Thick tropical variegated foliage that brightens indoor living rooms and office desks.",
+    "specs": {
+      "Plant Height": "10 Inches",
+      "Pot Color": "Matte White"
+    }
+  },
+  {
+    "id": "plant-snake-sansevieria",
+    "name": "Air-Purifying Snake Plant (Sansevieria)",
+    "category": "utility",
+    "material": "Live Air Purifier Plant",
+    "price": 90,
+    "rating": 5.0,
+    "reviewsCount": 95,
+    "badge": "Air Purifier",
+    "badgeType": "utility",
+    "image": "assets/images/plant_snake_sansevieria.png",
+    "images": ["assets/images/plant_snake_sansevieria.png"],
+    "shortDesc": "Resilient green striped snake plant known for high oxygen release and low maintenance.",
+    "description": "Extremely easy-care indoor air purifying plant that thrives with minimal watering.",
+    "specs": {
+      "Plant Type": "Sansevieria Trifasciata",
+      "Water Needs": "Once every 2 weeks"
+    }
+  },
+  {
+    "id": "plant-tulsi-basil",
+    "name": "Holy Tulsi (Basil) Plant in Clay Gamla",
+    "category": "utility",
+    "material": "Sacred Nursery Plant",
+    "price": 60,
+    "rating": 5.0,
+    "reviewsCount": 140,
+    "badge": "Sacred Nursery",
+    "badgeType": "utility",
+    "image": "assets/images/roadside_shop.png",
+    "images": ["assets/images/roadside_shop.png"],
+    "shortDesc": "Sacred Tulsi plant grown in rich organic vermicompost soil inside an earthen pot.",
+    "description": "Fresh, healthy Tulsi plant for daily household worship and herbal tea.",
+    "specs": {
+      "Pot Size": "8 Inch Terracotta Pot",
+      "Soil": "Vermicompost Organic Soil"
+    }
+  },
+  {
+    "id": "plant-money-plant",
+    "name": "Green Money Plant in Small Clay Pot",
+    "category": "utility",
+    "material": "Live Nursery Vine",
+    "price": 40,
+    "rating": 4.8,
+    "reviewsCount": 61,
+    "badge": "Easy Care",
+    "badgeType": "utility",
+    "image": "assets/images/terracotta_planters_stack.jpg",
+    "images": ["assets/images/terracotta_planters_stack.jpg"],
+    "shortDesc": "Fast-growing green money plant vine in a compact 6-inch clay pot.",
+    "description": "Classic green leafy vine suitable for balconies, windowsills, and indoor shelves.",
+    "specs": {
+      "Pot Size": "6 Inch Clay Pot",
+      "Care": "Indirect sunlight"
+    }
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "shopName": "प्रेम शंकर मूर्ति कला केंद्र (Prem Shankar Murti Kala Kendra)",
+  "owner": "Prem Shankar Prajapati",
+  "establishedYear": 1994,
+  "address": "Main Roadside Crafts Display, Opposite City Garden Circle",
+  "contactPhone": "+91 98765 43210",
+  "whatsAppNumber": "+91 98765 43210",
+  "operatingHours": "8:00 AM - 9:00 PM (Open All Days)",
+  "specialties": [
+    "Terracotta Clay Cookware & Utensils",
+    "Hand-Painted Plaster of Paris (POP) & Clay God/Devi Idols",
+    "Roadside Plant Nursery & Clay Gamlas",
+    "Portable Gas Stoves & 5kg Mini Cylinders",
+    "Custom Sculping & On-Order Motifs"
+  ],
+  "pricingSummary": {
+    "godMotifsMax": 200,
+    "clayItemsRange": "₹80 - ₹180",
+    "flowerPotsRange": "₹80 - ₹180",
+    "plantsRange": "₹40 - ₹150"
+  }
+}
