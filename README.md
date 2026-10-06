@@ -1,35 +1,11 @@
-<p align="center">
-  <img src="assets/images/artisan_hero.png" alt="Prem Shankar Murti Kala Kendra - Artisan at the pottery wheel" width="480" />
-</p>
-
-<h1 align="center">🏺 प्रेम शंकर मूर्ति कला केंद्र</h1>
-<h3 align="center">Prem Shankar Murti Kala Kendra</h3>
-<p align="center">
-  <em>Handcrafted Clay Pots · POP & Clay God Idols · Nursery Plants · Roadside Utility Shop</em>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Established-1994-C85A32?style=for-the-badge" alt="Established 1994" />
-  <img src="https://img.shields.io/badge/Products-19+_Handcrafted_Items-2E7D32?style=for-the-badge" alt="Products" />
-  <img src="https://img.shields.io/badge/Pricing-₹40_–_₹200-DAA520?style=for-the-badge" alt="Pricing" />
-  <img src="https://img.shields.io/badge/Deployed_on-Vercel-000000?style=for-the-badge&logo=vercel" alt="Vercel" />
-</p>
-
----
-
-## 📖 About
+##  About
 
 **Prem Shankar Murti Kala Kendra** is a full-stack e-commerce website for a traditional Indian artisan studio & roadside shop founded by **Prem Shankar Prajapati** in 1994. The shop specializes in:
 
-- 🍲 **Clay Utensils** — Handi, Kadai, Matka, Surahi, Kulhads (₹80 – ₹180)
-- 🛕 **POP & Clay God/Devi Idols** — Ram Darbar, Durga Mata, Ganesha, Shivlinga (₹80 – ₹200)
-- 🪷 **Decorative Flower Pots & Vases** — Mandala pots, peacock & lotus vases (₹80 – ₹180)
-- 🪴 **Nursery Plants** — Anthurium, Snake Plant, Tulsi, Money Plant (₹40 – ₹150)
-- 🔥 **Roadside Utilities** — Portable gas stoves, 5kg mini cylinders, hose accessories
 
 ---
 
-## ✨ Features
+## Features
 
 | Feature | Description |
 |---|---|
@@ -47,24 +23,9 @@
 
 ---
 
-## 🖼️ Screenshots
 
-<table>
-  <tr>
-    <td align="center"><img src="assets/images/god_ram_darbar.jpg" width="220" /><br /><sub>Shri Ram Darbar Set</sub></td>
-    <td align="center"><img src="assets/images/clay_handi_chulha.png" width="220" /><br /><sub>Desi Mitti Ki Handi</sub></td>
-    <td align="center"><img src="assets/images/vase_lotus_white.png" width="220" /><br /><sub>White Lotus Earthen Pot</sub></td>
-  </tr>
-  <tr>
-    <td align="center"><img src="assets/images/plant_pink_anthurium.png" width="220" /><br /><sub>Pink Anthurium Plant</sub></td>
-    <td align="center"><img src="assets/images/pot_mandala_stand.jpg" width="220" /><br /><sub>Mandala Pot with Stand</sub></td>
-    <td align="center"><img src="assets/images/vase_peacock_terracotta.jpg" width="220" /><br /><sub>Peacock Terracotta Vase</sub></td>
-  </tr>
-</table>
 
----
-
-## 🏗️ Tech Stack
+## Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -77,7 +38,7 @@
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 prem_shankar_murti_kala_kendra/
@@ -112,7 +73,7 @@ prem_shankar_murti_kala_kendra/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -155,7 +116,7 @@ The project includes a pre-configured [`vercel.json`](vercel.json) that maps ser
 
 ---
 
-## 🎨 Design System
+## Design System
 
 The website uses a warm **earth-tone artisan palette** inspired by traditional Indian pottery:
 
@@ -172,41 +133,8 @@ Typography uses a serif/sans-serif combination for an artisan-meets-modern feel.
 
 ---
 
-## 📦 Product Categories
 
-### 🍲 Clay Utensils (₹80 – ₹180)
-Handi, Kadai, Matka, Earthenware Collection, Kulhad Set — all kiln-fired terracotta.
-
-### 🛕 POP & Clay God Idols (₹80 – ₹200)
-Ram Darbar, Durga Mata, Ram-Sita-Lakshman Trio, Ganesha, Shivlinga — hand-painted with gold accents.
-
-### 🪷 Flower Pots & Vases (₹80 – ₹180)
-Mandala pots with iron stands, lotus vases, peacock terracotta vases, stacked planters.
-
-### 🪴 Nursery Plants & Utilities (₹40 – ₹150)
-Pink Anthurium, Dieffenbachia, Snake Plant, Holy Tulsi, Money Plant — all in clay pots.
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! If you'd like to improve this project:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
----
-
-## 📄 License
+## License
 
 This project is open source and available under the [MIT License](LICENSE).
 
----
-
-<p align="center">
-  <strong>🪔 Crafted with traditional clay & Plaster of Paris devotion</strong><br />
-  <em>© 2026 Prem Shankar Murti Kala Kendra. All Rights Reserved.</em>
-</p>
