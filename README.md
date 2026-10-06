@@ -1,7 +1,16 @@
 ##  About
 
-**Prem Shankar Murti Kala Kendra** is a full-stack e-commerce website for a traditional Indian artisan studio & roadside shop founded by **Prem Shankar Prajapati** in 1994. The shop specializes in:
+## Summer Internship Project
 
+**Prototype E-Commerce Website**
+
+Developed a responsive prototype e-commerce website for **Prem Shankar
+Murti Kala Kendra**, a local traditional Indian artisan studio, as part
+of my summer internship.
+
+The prototype was designed to establish the business's online presence
+and demonstrate how its handcrafted products could be showcased and
+sold online.
 
 ---
 
